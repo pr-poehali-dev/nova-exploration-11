@@ -25,13 +25,17 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-6 opacity-70">Добро пожаловать</p>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-8 leading-none">
+          НАША ИДЕЯ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-2xl max-w-2xl mx-auto opacity-80 font-light leading-relaxed">
+          Большие замыслы рождаются из простых вопросов.<br />Здесь — наш ответ.
         </p>
+        <div className="mt-12 flex justify-center">
+          <div className="w-px h-16 bg-white opacity-40"></div>
+        </div>
       </div>
     </div>
   );
