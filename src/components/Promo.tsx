@@ -25,14 +25,19 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 id="vision" className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest opacity-70">
-        Наше видение
+      <h3 id="vision" className="absolute top-12 left-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest opacity-70">
+        Творчество и стиль
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 font-light leading-tight">
-        Будущее принадлежит тем, кто решается действовать первым.
-        Мы уже сделали этот шаг — и зовём тебя с собой.
+      <p className="absolute bottom-12 left-6 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 font-light leading-tight italic">
+        «Не плачьте обо мне — я проживу<br className="hidden md:block" />
+        и этот год в молчании и смуте…»
       </p>
+
+      <div className="absolute bottom-12 right-6 z-10 text-right">
+        <p className="text-white opacity-60 text-xs uppercase tracking-widest">Особенности лирики</p>
+        <p className="text-white text-sm mt-2 opacity-80">Музыкальность · Интимность · Культ дружбы · Архаизмы</p>
+      </div>
     </div>
   );
 }
